@@ -1,0 +1,14 @@
+base:
+  - ../../parts/door_base/internal/tudor_door_base.
+  - .internal.stl
+back:
+  - ../../parts/door_back/internal.standard/tudor_door_back.
+  - .internal.standard.stl
+x-min: 2
+x-max: 4
+y-min: 1
+y-max: 4
+result:
+  - tudor_door.
+  - .internal.standard.stl
+external: false
